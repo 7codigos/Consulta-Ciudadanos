@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="runt.png" type="image/x-icon">
+    <title>Consulta Ciudadano - RUNT</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="">
+    </header>
+  <article>
+    <img src="perfil.jpeg" alt="">
+    <h2>Consulta Personas</h2>
+  </article>
+    <section>
+        <main>
+            <h1>Este módulo le permitirá conocer su información como conductor ante el RUNT.</h1>
+            <form action="">
+                <label  for="tipo_documento"><h2 style="font-size: 16px; color: rgba(0, 0, 0, 0.863); padding: 0px 0px 8px 0px;">Tipo de Documento:</h2></label>
+                <select style="padding: 8px 0px 8px 0px; border: 2px solid rgba(0, 0, 0, 0.315);" name="tipo_documento" id="tipo_documento">
+                    <option value="cedula">Cedula de Ciudadania</option>
+                    <option value="tarjeta">Tarjeta de identidad</option>
+                    <option value="cedula">Carnet Diplomatico</option>
+                    <option value="tarjeta">Cedula de Extrangeria</option>
+                    <option value="cedula">Pasaporte</option>
+                    <option value="tarjeta">Registro Civil</option>
+                </select>
+<br>
+                <label for="numero_documento"><h2 style="font-size: 16px; color: rgba(0, 0, 0, 0.863); padding: 0px 0px 8px 0px;">Nro. documento propietario</h2></label>
+                <input style="padding: 8px 0px 8px 3px; border: 2px solid rgba(0, 0, 0, 0.315);" type="number" id="numero_documento" name="numero_documento">
+
+                <h2 style="font-size: 16px; color: rgba(0, 0, 0, 0.863); padding: 13px 0px 13px 0px;">Digite los caracteres presentados a continuación</h2>
+                <img style="border: 1px solid rgba(0, 0, 0, 0.432); padding: 0; margin: 5px;" src="po.jpg" alt="">
+               
+                <input style="padding: 8px 0px 8px 3px; border: 2px solid rgba(0, 0, 0, 0.315); align-items: center;
+                margin: 0px 0px 40px 0px;" type="text" id="numero_documento" name="numero_documento">
+<br>
+                <input style="background-color: rgba(194, 32, 32, 0.973); border: none; border-radius: 10px; color: white; padding: 15px;" type="submit" value="Consultar Información">
+            </form>
+        </main>
+    </section>
+</body>
+</html>
