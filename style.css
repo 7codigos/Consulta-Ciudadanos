@@ -50,3 +50,13 @@ form{
     padding: 10px;
     margin: 20px;
 }
+
+main{
+    border: 1px solid rgba(192, 190, 190, 0.589);
+    padding: 13px;
+}
+
+aside{
+    border: 1px solid rgba(192, 190, 190, 0.589);
+    margin: 14px 0px 10px 0px;
+}
